@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/uber/needle.git', :tag => "v" + s.version.to_s }
   s.source_files     = 'Sources/**/*.swift'
   s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '13.0'
   s.swift_version    = '4.2'
 end
